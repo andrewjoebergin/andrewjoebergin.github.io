@@ -1,0 +1,96 @@
+body
+{
+  background-color: #e9e8e4;
+  font-family: 'Lora', serif;
+  font-size: 16px;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+
+#content
+{
+  color: #231f20;
+  font-family: 'Lora', serif;
+  max-width: 400px;
+  background-color: #fafafa;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  -webkit-box-shadow: 0px 22px 48px -15px rgba(0,0,0,0.56);
+-moz-box-shadow: 0px 22px 48px -15px rgba(0,0,0,0.56);
+box-shadow: 0px 22px 48px -15px rgba(0,0,0,0.56);
+}
+
+#content img
+{
+  width: 20%;
+  padding-bottom: 16px;
+  margin-right: 10px;
+  display: inline;
+  opacity: 1;
+  -webkit-transition: all ease 0.2s;
+  -moz-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease 0.2s;
+}
+
+
+#content h1
+{
+  font-weight: 800;
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Lora', serif;
+  display: inline;
+}
+
+#content a
+{
+  color: #231f20;
+  -webkit-transition: all ease 0.2s;
+  -moz-transition: all ease .2s;
+  -o-transition: all ease .2s;
+  transition: all ease 0.2s;
+}
+
+#content a:hover
+{
+  color: #7d7c7c;
+}
+
+#content h3
+{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+
+#content p
+{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+
+/*Medium and up - 640px*/
+@media screen and (min-width: 40em) {
+
+#content
+{
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -200px;
+  margin-top: -200px;
+}
+
+#content img
+{
+    margin-right: 20px;
+}
+
+}
